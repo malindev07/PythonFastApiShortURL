@@ -1,10 +1,9 @@
 import json
-from typing import List, Optional
+from typing import List
 
 import pyshorteners
 from pathlib import *
 from pydantic import BaseModel
-from pydantic_core import core_schema
 
 
 class DataJSON(BaseModel):
